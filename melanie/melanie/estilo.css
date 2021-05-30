@@ -1,0 +1,182 @@
+/* PROPIEDADES COMUNES */
+header, main, section, article, footer, aside { display: block; }
+body { margin: 0 !important; }
+a { text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p, a { font-family: 'Source Serif Pro', serif; }
+h1, h2, h3, h4, h5, h6, p, a { margin: 0; }
+
+
+/* ASIDE */
+aside#boton-wp { width: 50px; height: 25px; position: fixed; bottom: 50px; right: 50px; float: none; z-index: 99997; }
+aside#boton-wp a { width: 50px; height: 50px; font-size: 24px; color: #69B4C9; text-align: center; display: block; transition: all 0.3s ease-in; background: #004D64; border-radius: 50px;  }
+aside#boton-wp a i { padding: 12px 0 0; }
+aside#boton-wp a:hover { transition: all 0.3s ease-in; background: #FF52A1; border-radius: 50px;}
+
+
+/* HEADER */
+header { width: 100%; height: 90px; margin: 0 auto; float: none; position: fixed; top: 0; left: 0; z-index: 99999; background: #EDEDED; }
+header article { width: 1140px; height: 90px; margin: 0 auto; float: none; position: relative; top: 0; }
+header article nav#menu-principal { position: relative; padding: 30px 0 0 0; margin: 0 auto; float: none; width: 432px; }
+
+
+header article nav#menu-principal a {  font-weight: 600; font-size: 1em; line-height: 1em; color: #69B4C9; text-align: center; width: auto; height: auto; display: block; float: left; margin: 0 7px 0 50px; position: relative; padding: 7px 0; border-bottom: solid 2px #EDEDED; transition: all 0.3s ease-in; }
+header article nav#menu-principal a:hover { color: #69B4C9; border-bottom: solid 2px #69B4C9; transition: all 0.3s ease-in; }
+header article nav#menu-principal a:nth-child(4) { margin: 0; }
+
+
+/* MAIN */
+main { width: 100%; height: auto; margin: 90px auto 0 auto; float: none; position: relative; }
+
+
+/* Página Inicio */
+
+main section#about { width: 100%; height: 535px; margin: 0 auto; float: none; position: relative; background: #EDEDED;}
+main section#about article { width: 80%; height: auto; margin: 0 auto; float: none; position: relative; }
+
+main section#about article div#about-info { width: 480px; height: auto; margin: 0 60px 0 0; float: left; position: relative; padding: 97px 0 0; }
+
+main section#about article div#about-info h1 { color: #004D64; font-size: 3.1em; font-weight: 600; line-height: 1.3em; padding: 20px 0; }
+main section#about article div#about-info h1 strong { font-weight: 800;}
+main section#about article div#about-info h2 { color: #004D64; font-size: 1.09em; font-weight: 400; line-height: 1.9em; padding: 6px;}
+main section#about article div#about-info a {width: 250px; height: auto; display: block; margin: 0; float: none; position: relative; background: #FF52A1; color: #fff; font-size: 1.05em; text-align: center; padding: 20px 0; border-radius: 10px; font-weight: 600; letter-spacing: 0.0315em; box-shadow: 0 20px 25px rgba(245,56,56,0.25); transition: all 0.3s ease-in; }
+
+main section#about article div#about-info a:hover { background: #0B132A; color: #fff; transition: all 0.3s ease-in; }
+
+main section#about article figure { width: 539px; height: auto; margin: 0; float: none; position: relative; overflow: hidden; }
+main section#about article figure img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+
+/* MAIN-SERVICIOS */
+
+main section#servicios { width: 100%; height: 520px; margin: 0 auto; float: none; position: relative; background: #EDEDED;}
+main section#servicios article { width: 80%; height: auto; margin: 0 auto; float: none; position: relative; }
+
+main section#servicios article h3{ color: #004D64; width: 250px; height: auto; display: block; margin: 51px 378px; float: none; position: relative; background: #69B4C9; color: #fff; font-size: 1.05em; text-align: center; padding: 20px 0;  border-radius: 20px; font-weight: 600; letter-spacing: 0.0315em; transition: all 0.3s ease-in;
+}
+
+main section#servicios article h3:hover { transition: all 0.3s ease-in; background: #FF52A1; border-radius: 20px; }
+
+main section#servicios article figure { margin: 40px 83px  }
+main section#servicios article figure img { border-radius: 20px; margin: -9px 14px 19px -10px;}}
+
+/* MAIN-PROGRAMAS */
+main section#programas { width: 100%; height: 250px; margin: 0 auto; float: none; position: relative; background: #EDEDED;}
+main section#programas article { width: 80%; height: auto; margin: -51px auto; float: none; position: relative; }
+
+main section#programas article h3 { color: #004D64; width: 250px; height: auto; display: block; margin: 23px 378px; float: none; position: relative; background: #69B4C9; color: #fff; font-size: 1.05em; text-align: center; padding: 20px 0;  border-radius: 20px; font-weight: 600; letter-spacing: 0.0315em; transition: all 0.3s ease-in;
+}
+
+main section#programas article h3:hover { transition: all 0.3s ease-in; background: #FF52A1; border-radius: 20px; }
+
+/* MAIN-CONTACTO */
+
+main section#contacto { width: 100%; height: 535px; margin: 0 auto; float: none; position: relative; background: #EDEDED }
+main section#contacto article { width: 903px;
+    height: 446px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: url(img/fondo.png) no-repeat top center;
+    background-size: cover;
+    border-radius: 25px;
+    top: 50px;}
+main section#contacto article h1 { color: #004D64;
+    font-size: 3.1em;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 50px 0 12px 0;
+    text-align: center; }
+main section#contacto article h1 strong { font-weight: 800;}
+main section#contacto article h2 { color: #004D64;
+    font-size: 1.09em;
+    font-weight: 400;
+    line-height: 1.9em;
+    padding: 6px 0 50px;
+    margin: 0 auto;
+    width: 70%;
+    float: none; }
+main section#contacto article a {width: 250px; height: auto; display: block; margin: 0; float: none; position: relative; background: #FF52A1; color: #fff; font-size: 1.05em; text-align: center; padding: 20px 0; border-radius: 10px; font-weight: 600; letter-spacing: 0.0315em; box-shadow: 0 20px 25px rgba(245,56,56,0.25); transition: all 0.3s ease-in; }
+
+main section#contacto article img { width: 995px; height: 456px; padding: 38px 54px 42px 18px; border-radius: 141px;}
+
+main section#redes article nav#menu-redes {width: 268px;
+    height: 40px;
+    position: relative;
+    padding: 30px 0;
+    float: none;
+    margin: -260px 18px 27px 486px;
+    display: block;}
+main section#redes article nav#menu-redes a { width: 40px; height: 40px; font-size: 1.15em; color: #69B4C9; text-align: center; display: block; float: left; margin: 0 12px; transition: all 0.3s ease-in; background: #004D64; border-radius: 50px; }
+main section#redes article nav#menu-redes a i { padding: 11px 0; }
+
+main section#redes article nav#menu-redes a:hover { transition: all 0.3s ease-in; background: #FF52A1; border-radius: 50px; }
+
+
+
+
+/* FOOTER */
+
+footer { width: auto; height: 80px; margin: 0; float: none; position: fixed; bottom: 0; left: 0; background: #69B4C9; }
+footer article { height: auto; width: 300px; margin: 0 auto; }
+
+footer article nav#menu-redes { width: 268px; height: 40px; position: relative; padding: 30px 0; float: none; margin: 0 auto; display: block;}
+footer article nav#menu-redes a { width: 40px; height: 40px; font-size: 1.15em; color: #69B4C9; text-align: center; display: block; float: left; margin: 0 12px; transition: all 0.3s ease-in; background: #004D64; border-radius: 50px; }
+footer article nav#menu-redes a i { padding: 11px 0; }
+
+footer article nav#menu-redes a:hover { transition: all 0.3s ease-in; background: #FF52A1; border-radius: 50px; }
+
+
+/*Zona Media Query*/
+
+
+/*pagina inicio*/
+
+@media only screen and (max-width: 1199px){
+
+    
+header article { width: 80%;}
+header article nav#menu-principal {  margin: 0 auto; float: none;  width: 432px;}
+main section#about { height: auto}
+main section#about article { width: 80%; height: auto; padding: 0 0 80px 0;}
+main section#about article div#about-info { width: 480px; height: auto; margin: 0 auto; float: none;  padding: 45px 0 0;}
+
+main section#about article div#about-info h1 { font-size: 2em; padding: 20px 0; text-align: center; }
+
+main section#about article div#about-info h2 { font-size: 1.06em; font-weight: 400; line-height: 1.6em;  text-align: center; width: 100%;}
+
+
+main section#about article figure { margin: 40px auto; width: 539px; height: auto; float: none;}
+
+ }
+
+ @media only screen and (max-width: 1099px){
+
+    footer { width: 100%; position: relative;}
+    
+    /*pagina servicios*/
+     main section#servicios article figure { margin: 42px 83px;}
+     main section#servicios article h3 { margin: 18px 293px;}
+     
+}
+
+
+
+@media only screen and (max-width: 699px){
+
+    header article { width: 80%;}
+    header article nav#menu-principal { margin: 0 auto; float: none; width: 100%;}
+    header article nav#menu-principal a { font-size: 0.9em; width: auto; height: auto; margin: 18px 11px 6px 46px;;}
+
+    main section#about article div#about-info { width: 100%;}
+    main section#about article figure { margin: 40px auto; width: 100%; height: auto; float: none;}
+    
+    /*pagina servicios*/
+    main section#servicios { height: 1041px; }
+    main section#servicios article h3 { margin: 12px 87px;}
+    
+    /*pagina contacto*/
+    main section#contacto {width: 100%; height: 772px;}
+    main section#contacto article { width: 449px; height: 678px;}
+    main section#redes article nav#menu-redes { margin: -268px 18px 19px 113px;
+
+
